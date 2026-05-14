@@ -1,7 +1,5 @@
 import ComplianceImage from '../../images/figma12.png'
 import HeroImage from '../../figma11.png'
-export default function Mainpage(){
-   
 const LogoIcon = ({ size = 46 }) => (
   <svg width={size} height={size * 1.09} viewBox="0 0 46 50" fill="none">
     <circle cx="18" cy="18" r="14" fill="#4356D6" opacity="0.15"/>
@@ -645,4 +643,3 @@ export default function IntegratedPage() {
 }
 
     
-}
