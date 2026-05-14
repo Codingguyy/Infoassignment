@@ -1,9 +1,6 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
-import Landing_page from './src/pages/landing_page.jsx'
-import Login from './src/pages/login'
-import Create_account from './src/pages/create_account'
-import Profile from './src/pages/profile.jsx'
 import Layout from "./src/pages/layout.jsx";
+import Mainpage from './src/pages/main_page.jsx'
 import './src/index.css'
 const router = createBrowserRouter([
   {
@@ -11,20 +8,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Landing_page/>,
+        element: <Mainpage/>,
       },
-      {
-        path: "/login",
-        element: <Login/>,
-      },
-      {
-        path: "/create_account",
-        element: <Create_account/>
-      },
-      {
-        path: "/profile",
-        element: <Profile/>
-      }
     ],
   },
 ]);
