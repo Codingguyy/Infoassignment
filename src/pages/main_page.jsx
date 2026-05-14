@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useEffect } from 'react';
 import ComplianceImage from '../../images/figma12.png'
 import HeroImage from '../../images/figma11.png'
 const LogoIcon = ({ size = 46 }) => (
